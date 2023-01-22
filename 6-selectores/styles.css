@@ -1,0 +1,83 @@
+/* 
+Selectores simples
+    selectores elementales
+        selector universas -> *
+        selector de tipo o etiqueta -> h1, p, div, span, a, ul, li, img, input, button, form, table, tr, td, th, etc.
+    selectores de atributos
+        id -> #id
+        class -> .class
+        atributos -> [atributo], [atributo="valor"], [atributo~="valor"], [atributo|="valor"], [atributo^="valor"], [atributo$="valor"], [atributo*="valor"]
+selectores compuestos
+    selectores agrupados 
+    selectores combinados
+    pseudo clases - pseudo elementos
+
+*/
+
+/* * {
+    background-color: lightcoral;
+}
+
+h1{
+    background-color: lavender;
+}
+
+p{
+    background-color: lawngreen;
+} */
+
+/* #title{
+    background-color: lightcoral;
+}
+
+.title{
+    background-color: lavender;
+}
+
+.texto{
+    background-color: rgb(133, 165, 100);
+}
+
+[href]{
+    background-color: red;
+}
+[href="htts://google.com"]{
+    background-color: rgb(110, 165, 22);
+}
+[href^=color]{
+    background-color: rgb(18, 95, 119);
+}
+
+[href*="modo"]{
+    background-color: rgb(201, 243, 17);
+}
+[href$="rojo"]{
+    background-color: rgb(231, 149, 238);
+}
+
+[lang|="en-GB"]{
+    background-color: rgb(154, 160, 97)
+} */
+
+/* .text,
+.text-2,
+.text-3,
+.text-4{
+    background-color: steelblue;
+} */
+
+/* div .title-2{
+    background-color: aquamarine;
+}
+
+.text-2 + h2{
+    background-color: tomato;
+}
+
+.text-2 ~ .text{
+    background-color: red;
+} */
+
+/* .container > p{
+    background-color: teal;
+} */
